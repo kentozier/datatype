@@ -83,7 +83,7 @@ function datatype(inValue)
 			// a simple key/value array
 			for (var key in inValue)
 			{
-				if (typeof(inValue[key]) == 'function')
+				if (inValue[key].constructor == Function')
 					return 'object';
 			}
 				
