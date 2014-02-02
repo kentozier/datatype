@@ -7,7 +7,7 @@ Overview
 -
 Javascript's typeof function is adequate for primitive types, but is pretty much useless for distinguishing between, say, simple arrays and key/value arrays. "datatype" was written to give more useful type information.
 
-The table below compares "datatype" output with output from "typeof"
+The table below compares "datatype" output with output from "typeof" for various data types
 
 ```
 Data                  typeof output     datatype output
