@@ -1,6 +1,6 @@
 // This little function generates a missing symbol in Opera. 
 // Without it Opera chokes on "HTMLSpanElement" when compiling 
-// the "datatype" code.
+// the "datatype" source.
 (function()
 {
 	var navString	= navigator.userAgent.toLowerCase();
