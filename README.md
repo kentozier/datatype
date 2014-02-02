@@ -71,6 +71,6 @@ else if (type == 'html_span')
 
 Compatibility
 -
-"datatype" has been tested in Firefox, Chrome, Safari and Opera on M Mac. I don't have access to a Windows computer so there may be some issues when run in IE. If you are a Windows/IE user, feel free to test "datatype" and report any bugs.
+"datatype" has been tested in Firefox, Chrome, Safari and Opera on a Mac. I don't have access to a Windows computer so there may be some issues when run in IE. If you are a Windows/IE user, feel free to test "datatype" and report any bugs.
 
 Enjoy!
