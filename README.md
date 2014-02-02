@@ -1,7 +1,7 @@
 datatype
 ========
 
-More granular type detection alternative to Javascript's "typeof" function
+More powerful type detection alternative to Javascript's "typeof" function
 
 Overview
 -
