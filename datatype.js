@@ -19,8 +19,6 @@
 
 function DataType(inValue)
 {
-	console.log('con: ' + inValue.constructor);
-	
 	switch (inValue.constructor)
 	{
 		// Javascript types
