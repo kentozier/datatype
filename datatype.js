@@ -67,26 +67,26 @@ function DataType(inValue)
 		
 		// Opera specific span detector
 		case	HTMLElement:
-				{
-					var type	= inValue.nodeName.toLowerCase();
+			{
+				var type	= inValue.nodeName.toLowerCase();
 					
-					if (type == 'span')
-						return 'html_span';
-					else
-						return 'opera_unknown_' + type;
-				}
-				break;
+				if (type == 'span')
+					return 'html_span';
+				else
+					return 'opera_unknown_' + type;
+			}
+			break;
 				
 		default:
-				// If any of inValue's keys map to functions, 
-				// then it is a custom class. Otherwise it's 
-				// a simple key/value array
-				for (var key in inValue)
-				{
-					if (typeof(inValue[key]) == 'function')
-						return 'class';
-				}
+			// If any of inValue's keys map to functions, 
+			// then it is a custom class. Otherwise it's 
+			// a simple key/value array
+			for (var key in inValue)
+			{
+				if (typeof(inValue[key]) == 'function')
+					return 'class';
+			}
 				
-				return 'dict';
+			return 'dict';
 	}
 }
