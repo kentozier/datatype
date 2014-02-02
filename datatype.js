@@ -79,12 +79,12 @@ function DataType(inValue)
 				
 		default:
 			// If any of inValue's keys map to functions, 
-			// then it is a custom class. Otherwise it's 
+			// then it is an object. Otherwise it's 
 			// a simple key/value array
 			for (var key in inValue)
 			{
 				if (typeof(inValue[key]) == 'function')
-					return 'class';
+					return 'object';
 			}
 				
 			return 'dict';
