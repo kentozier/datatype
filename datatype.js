@@ -17,7 +17,7 @@
 
 // DataType function provides finer granularity 
 // than native "typeof" function.
-function DataType(inValue)
+function datatype(inValue)
 {
 	switch (inValue.constructor)
 	{
