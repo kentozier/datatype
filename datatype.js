@@ -14,9 +14,9 @@
 	}
 })();
 
+
 // DataType function provides finer granularity 
 // than native "typeof" function.
-
 function DataType(inValue)
 {
 	switch (inValue.constructor)
@@ -89,3 +89,4 @@ function DataType(inValue)
 				
 				return 'dict';
 	}
+}
