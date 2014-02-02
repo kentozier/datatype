@@ -4,7 +4,6 @@
 (function()
 {
 	var navString	= navigator.userAgent.toLowerCase();
-	
 	if (navString.indexOf('opera') != -1)
 	{
 		// At some future date, the Opera dev team may 
